@@ -16,3 +16,8 @@
 .LoginStyle {
     padding: 5px;
 }
+
+.btnGithub {
+    background-color: #333;
+    color: #fafafa;
+}

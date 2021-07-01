@@ -13,12 +13,12 @@ export default function Login() {
     };
 
     return (
-        <Container style={{ width:'100vw' }}>
+        <Container>
             <div class="Heading"><h1 >Confab</h1></div>
             <img src={LOGO} alt="Confab Logo" class='LogoCenter'/>
-            <div class='btn-group-vertical'>
-                <button onClick={() => handleOnClick(githubkProvider)} type="button" class="btn btn-outline-primary" style={{ padding: '3px', margin: '5px' }}>Login with Github</button>
-                <button onClick={() => handleOnClick(googleProvider)} type="button" class="btn btn-outline-primary" style={{ padding: '3px', margin: '5px' }}>Login with Google</button>
+            <div class="row">
+                <button onClick={() => handleOnClick(githubkProvider)} type="button" class="btnGithub" style={{ padding: '3px', margin: '5px' }}>Login with Github</button>
+                <button onClick={() => handleOnClick(googleProvider)} type="button" class="btnGoogle" style={{ padding: '3px', margin: '5px' }}>Login with Google</button>
             </div>
        </Container>
     )
