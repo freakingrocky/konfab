@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+
+/* CSS RESET */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
 .LogoCenter {
     display: block;
     margin-left: auto;
@@ -9,7 +21,6 @@
 
 .Heading {
     text-align: center;
-    margin-top: 1.5vh;
     color: #301934;
     font-family: 'Kaushan Script', cursive;
     font-size: 52px;

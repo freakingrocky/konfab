@@ -1,9 +1,11 @@
 import React from 'react';
 import Login from './Login'
+import ParticleBackground from './ParticleBackground';
 
 function App() {
   return (
-    <Login />
+    <div> <Login /><ParticleBackground />
+   </div>
   );
 }
 

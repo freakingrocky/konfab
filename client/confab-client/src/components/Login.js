@@ -8,8 +8,6 @@ import GithubButton from 'react-github-login-button'
 import GoogleButton from 'react-google-button'
 
 
-
-
 export default function Login() {
     const handleOnClick = async (provider) => {
         const res = await socialMediaAuth(provider);

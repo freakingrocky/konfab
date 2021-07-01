@@ -8,11 +8,15 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
     "firebase": "^8.6.8",
+    "parallax-js": "^3.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-github-login-button": "^1.0.1",
     "react-google-button": "^0.7.2",
+    "react-parallax": "^3.3.0",
+    "react-parallax-mousemove": "^1.1.0",
+    "react-particles-js": "^3.5.3",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "npm-update-all": "^1.0.1",
+    "tsparticles": "^1.30.2"
   }
 }
