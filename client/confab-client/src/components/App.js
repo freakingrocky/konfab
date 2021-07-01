@@ -1,8 +1,9 @@
 import React from 'react';
+import Login from './Login'
 
 function App() {
   return (
-    "This is the start of Confab!"
+    <Login />
   );
 }
 

@@ -1,0 +1,18 @@
+.LogoCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+}
+
+.Heading {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: #301934;
+    font-size: 30px;
+}
+
+.LoginStyle {
+    padding: 5px;
+}
