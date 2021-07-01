@@ -1,5 +1,5 @@
 # Confab 
-The Customizable Secure Open-Source & Private Social Media for Anyone & Everyone\
+Customizable, Secure & Private
 
 
 #### Citations

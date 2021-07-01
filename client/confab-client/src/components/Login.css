@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .LogoCenter {
     display: block;
     margin-left: auto;
@@ -7,17 +9,17 @@
 
 .Heading {
     text-align: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 1.5vh;
     color: #301934;
-    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 52px;
+}
+
+.Desc {
+    margin-bottom: 3vh;
+    text-align: center;
 }
 
 .LoginStyle {
     padding: 5px;
-}
-
-.btnGithub {
-    background-color: #333;
-    color: #fafafa;
 }
