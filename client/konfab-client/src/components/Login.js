@@ -16,9 +16,9 @@ export default function Login() {
 
     return (
         <Container>
-            <div class="Heading">Confab</div>
+            <div class="Heading">Konfab</div>
             <div class="Desc"><i>Customizable, Secure & Private</i></div>
-            <img src={LOGO} alt="Confab Logo" class='LogoCenter'/>
+            <img src={LOGO} alt="Konfab Logo" class='LogoCenter'/>
             <div class="row">
                 <GithubButton onClick={() => handleOnClick(githubProvider)} type="dark" style={{ padding: '3px', margin: '5px', width:'100vw' }} />
                 <GoogleButton onClick={() => handleOnClick(googleProvider)} type="dark" style={{ padding: '3px', margin: '5px', width: '100vw' }} />

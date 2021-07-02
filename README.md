@@ -1,4 +1,4 @@
-# Confab 
+# Konfab
 Customizable, Secure & Private
 
 
