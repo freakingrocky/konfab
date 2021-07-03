@@ -1,4 +1,4 @@
-# Konfab
+# Konfab  <img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
 Customizable, Secure & Private
 
 
