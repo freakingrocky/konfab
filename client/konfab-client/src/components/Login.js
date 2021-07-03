@@ -1,11 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import LOGO from '../assets/logo192.png';
+import LOGO from '../assets/logo.svg';
 import './Login.css'
+import './reset.css'
 import { githubProvider, googleProvider } from '../config/authMethods'
 import socialMediaAuth from '../service/auth'
 import GithubButton from 'react-github-login-button'
 import GoogleButton from 'react-google-button'
+import KonfabButton from './KonfabButton/KonfabButton'
 
 
 export default function Login() {
@@ -18,11 +20,11 @@ export default function Login() {
         <Container>
             <div class="Heading">Konfab</div>
             <div class="Desc"><i>Customizable, Secure & Private</i></div>
-            <img src={LOGO} alt="Konfab Logo" class='LogoCenter'/>
-            <div class="row">
-                <GithubButton onClick={() => handleOnClick(githubProvider)} type="dark" style={{ padding: '3px', margin: '5px', width:'100vw' }} />
-                <GoogleButton onClick={() => handleOnClick(googleProvider)} type="dark" style={{ padding: '3px', margin: '5px', width: '100vw' }} />
-            </div>
+            <img src={LOGO} alt="Konfab Logo" class='LogoCenter' style={{ height: "192px" }}/>
+            <div class="row" style={{ padding: '5px' }}><KonfabButton onClick={console.log("Clicked")} type="dark" style={{ width: '100vw' }} label="Use Konfab ID (Login/Register)" /></div>  {/* Konfab Login Setup */}
+            <div class="row" style={{ padding:'5px' }}><GithubButton onClick={() => handleOnClick(githubProvider)} type="dark" style={{ width:'100vw' }} label="Login with Github" /></div>
+            <div class="row" style={{ padding: '5px' }}><GoogleButton onClick={() => handleOnClick(googleProvider)} type="dark" style={{ width: '100vw' }} label="Login with Google" /></div>
+            <div class="row" style={{ padding: '5px' }}><button onClick={() => handleOnClick('Anonymous')} class="btn btn-outline-light" style={{ width: '100vw' }}>Encrypted Anonymous Chatroom</button></div>
        </Container>
     )
 }

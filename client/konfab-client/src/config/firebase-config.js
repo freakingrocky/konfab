@@ -1,13 +1,13 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCCeZ_503BI58lybq0q_q5F2rTedryLXvU",
-    authDomain: "confab-782e5.firebaseapp.com",
-    projectId: "confab-782e5",
-    storageBucket: "confab-782e5.appspot.com",
-    messagingSenderId: "712395892977",
-    appId: "1:712395892977:web:d88c59876fbf2b68446150",
-    measurementId: "G-EBMQ3FHJ1B"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 // Initialize Firebase
