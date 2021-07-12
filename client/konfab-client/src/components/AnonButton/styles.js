@@ -41,6 +41,7 @@ export const iconStyle = {
 export const svgStyle = {
     height: '62px',
     margin: 'auto',
+    paddingLeft: '12px',
     display: 'block'
 }
 

@@ -11,7 +11,6 @@ import KonfabButton from './KonfabButton/KonfabButton'
 import AnonButton from './AnonButton/AnonButton'
 
 
-
 export default function Login() {
     const handleOnClick = async (provider) => {
         const res = await socialMediaAuth(provider);
