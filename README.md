@@ -3,7 +3,7 @@ Customizable, Secure & Private
 
 #### Development
 [Join the discord server!](https://bit.ly/konfabdc)\
-*Click here If the link above doesn't work: bit.ly/konfabdc*
+*[bit.ly/konfabdc](https://bit.ly/konfabdc)*
 
 <!-- ### Citations
 * [Authenticated Key Exchange Secure under the
