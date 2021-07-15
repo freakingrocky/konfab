@@ -3,9 +3,7 @@ import { Button, Container } from 'react-bootstrap'
 import Hr from './Hr/Hr'
 import './reset.css'
 import './KonfabID_Login.css'
-import LOGO from '../assets/logo.svg';
-import LoginIMG from '../assets/Login.svg'
-import signUpIMG from '../assets/signUp.svg'
+import Back from '../assets/Back.svg';
 
 
 export default function KonfabID_Login() {
@@ -18,7 +16,7 @@ export default function KonfabID_Login() {
     return (
         <Container>
             <div class="Heading_ID">Konfab ID</div>
-            <img src={LOGO} alt="Konfab Logo" class='Logo' style={{ height: "80px" }} />
+            <img src={Back} alt="Back Button" class='Back' style={{ height: "80px" }} />
             <div class="forms-container">
                 <div class="signin-signup">
                     <form action="" class="signin-form">

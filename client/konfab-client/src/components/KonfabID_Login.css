@@ -44,10 +44,12 @@ form {
 
 form.signin-form {
     opacity: 1;
+    z-index: 2;
 }
 
 form.signup-form {
     opacity: 0;
+    z-index: 1;
 }
 
 .input-field {
@@ -73,7 +75,7 @@ input {
 }
 
 
-.Logo {
+.Back {
     display: block;
     position: absolute;
     top: 0px;
@@ -85,7 +87,7 @@ input {
 
 /* Hides logo if screens is smaller than 480px */
 @media screen and (max-width: 480px) {
-    .LogoCenter {
+    .Back {
         display: none !important;
     }
 }
