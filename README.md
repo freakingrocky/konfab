@@ -3,6 +3,7 @@ Customizable, Secure & Private
 
 #### Development
 [Join the discord server!](https://bit.ly/konfabdc) [*[bit.ly/konfabdc](https://bit.ly/konfabdc)*]
+! Added Firebase Authentication
 
 <!-- ### Citations
 * [Authenticated Key Exchange Secure under the
